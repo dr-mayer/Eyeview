@@ -23,6 +23,9 @@
 #   ------------------------------------------------------------
 #   export PS1="________________________________________________________________________________\n| \w @ \h (\u) \n| => "
 #   export PS2="| => "
+   export SYS_NAME='Eurynome'
+   export PS1="\u@$SYS_NAME \W$ "
+
 
 #   Set Paths
 #   ------------------------------------------------------------
@@ -49,8 +52,8 @@
 #   2.  MAKE TERMINAL BETTER
 #   -----------------------------
 
-alias cp='cp -iv'                           # Preferred 'cp' implementation
-alias mv='mv -iv'                           # Preferred 'mv' implementation
+alias cp='cp -i'                           # Preferred 'cp' implementation
+alias mv='mv -i'                           # Preferred 'mv' implementation
 alias ls='ls -G'
 #alias mkdir='mkdir -pv'                     # Preferred 'mkdir' implementation
 #alias ll='ls -FGlAhp'                       # Preferred 'ls' implementation
@@ -65,6 +68,8 @@ alias .5='cd ../../../../../'               # Go back 5 directory levels
 alias .6='cd ../../../../../../'            # Go back 6 directory levels
 alias edit='subl'                           # edit:         Opens any file in sublime editor
 alias finder='open -a Finder ./'            # f:            Opens current directory in MacOS Finder
+alias setup_root='source /Applications/root_v5.34.34/bin/thisroot.sh'
+alias repo='cd /Users/Nathan/Repository'
 #alias ~="cd ~"                             # ~:            Go Home
 #alias c='clear'                            # c:            Clear terminal display
 #alias which='type -all'                    # which:        Find executables
