@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../workspace/data-shared/data-shared.iml" filepath="$PROJECT_DIR$/../workspace/data-shared/data-shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../workspace/datastore-mongo/datastore-mongo.iml" filepath="$PROJECT_DIR$/../workspace/datastore-mongo/datastore-mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../workspace/eyeview-utils/eyeview-utils.iml" filepath="$PROJECT_DIR$/../workspace/eyeview-utils/eyeview-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../workspace/rtb-common/rtb-common.iml" filepath="$PROJECT_DIR$/../workspace/rtb-common/rtb-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../workspace/rtb-optimization/rtb-optimization.iml" filepath="$PROJECT_DIR$/../workspace/rtb-optimization/rtb-optimization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../workspace/rtb-usf-model/rtb-usf-model.iml" filepath="$PROJECT_DIR$/../workspace/rtb-usf-model/rtb-usf-model.iml" />
+    </modules>
+  </component>
+</project>
